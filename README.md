@@ -2,7 +2,9 @@ Um simples check de usuario feito em python que funciona com varios aplicativos,
 
 para fazer a instalação rode o seguinte comando !
 
-```bash <(wget -qO- https://raw.githubusercontent.com/Cyber-ssh/CheckUser/main/install.sh)```
+```
+bash <(wget -qO- https://raw.githubusercontent.com/Cyber-ssh/CheckUser/main/install.sh)
+```
 
 Feito por @Cyberssh23
 
