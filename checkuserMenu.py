@@ -6,7 +6,7 @@ import socket
 import json
 
 cor_vermelha = "\033[91m"
-cor_verde = "\033[92m"
+cor_amarelo = "\033[92m"
 cor_amarela = "\033[93m"
 cor_azul = "\033[94m"
 cor_reset = "\033[0m"
@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
 
         if verificar_processo(nome_do_script):
-            status = f'{cor_verde}ativo{cor_reset} - porta em uso: {obter_do_cache("porta")}'
+            status = f'{cor_amarelo}ativo{cor_reset} - porta em uso: {obter_do_cache("porta")}'
         else:
             status = f'{cor_vermelha}parado{cor_reset} - porta que será usada: {obter_do_cache("porta")}'
        
@@ -144,7 +144,7 @@ if __name__ == "__main__":
 
         elif option == "4":
             os.system('clear')
-            print(f"Olá, esse é um multi-checkuser criado por @UlekBR")
+            print(f"Olá, esse é um multi-checkuser criado por @Cybessh")
             print(f"Com esse checkuser venho trazendo a possibilidade de usar em diversos apps")
             print(f"Apps como: ")
             print(f" - DtunnelMod")
