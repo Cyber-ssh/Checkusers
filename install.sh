@@ -13,4 +13,4 @@ chmod +x /root/CheckUser/checkuserMenu.sh
 ln -s /root/CheckUser/checkuserMenu.sh /usr/local/bin/CheckUser
 
 clear
-echo "Para iniciar o menu digite: $verde CheckUser $reset"
+echo "Para iniciar o menu digite: $amarelo CheckUser $reset"
