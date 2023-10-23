@@ -1,15 +1,8 @@
-Um simples check de usuario feito em python que funciona com varios aplicativos, mas seja compreensivo, script em testes ! 
+# MULTI-Checkuser
 
-para fazer a instalação rode o seguinte comando !
 
-```
-bash <(wget -qO- https://raw.githubusercontent.com/Cyber-ssh/CheckUser/main/install.sh) && CheckUser
-```
 
-Feito por:
-
-Para iniciar o checkuser menu: 
 
 ```
-CheckUser
+ bash <(curl -sL https://raw.githubusercontent.com/Cyber-ssh/Checkuser/main/instcheck.sh) && chall
 ```
