@@ -62,11 +62,11 @@ echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━�
 echo ""
 [[ $(netstat -nplt | grep -wc 'python3') != '0' ]] && {
 sks='\033[1;32mON'
-echo -e "\033[1;35mLink Dtunnel e Conecta4g \033[1;37mhttp://$IP:$(netstat -nplt | grep 'python3' | awk {'print $4'} | cut -d: -f2 | xargs)/checkUser"
+echo -e "\033[1;37mLink Dtunnel e Conecta4g \033[1;33mhttp://$IP:$(netstat -nplt | grep 'python3' | awk {'print $4'} | cut -d: -f2 | xargs)/checkUser"
 echo ""
-echo -e "\033[1;35mLink GLTUNNEL \033[1;37mhttp://$IP:$(netstat -nplt | grep 'python3' | awk {'print $4'} | cut -d: -f2 | xargs)/gl"
+echo -e "\033[1;37mLink GLTUNNEL \033[1;33mhttp://$IP:$(netstat -nplt | grep 'python3' | awk {'print $4'} | cut -d: -f2 | xargs)/gl"
 echo ""
-echo -e "\033[1;35mLink AnyMod \033[1;37mhttp://$IP:$(netstat -nplt | grep 'python3' | awk {'print $4'} | cut -d: -f2 | xargs)/anymod"
+echo -e "\033[1;37mLink AnyMod \033[1;33mhttp://$IP:$(netstat -nplt | grep 'python3' | awk {'print $4'} | cut -d: -f2 | xargs)/anymod"
 echo ""
 } || {
 sks='\033[1;31mOFF'
