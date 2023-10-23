@@ -57,7 +57,7 @@ fun_chuser() {
 clear
 echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\E[44;1;37m          GERENCIAR CHECKUSER            \E[0m"
-echo -e "\E[44;1;37mVERSÃO 1.6                By @Cyberssh23\E[0m"
+echo -e "\E[44;1;37mVERSÃO 1.0                By @Cyberssh23\E[0m"
 echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
 [[ $(netstat -nplt | grep -wc 'python3') != '0' ]] && {
