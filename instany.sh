@@ -8,7 +8,7 @@ dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1
 clear
 echo -e "\E[44;1;37m    INSTALAR CHECKUSER ANYVPN     \E[0m" 
 echo ""
-echo -e "                 \033[1;31mBy CYBERSSH\033[1;36m"
+echo -e "                 \033[1;31mBy @cybercoari\033[1;36m"
 echo ""
 echo -ne "\n\033[1;32mDE UM ENTER PARA \033[1;33mCONTINUAR...\033[1;37m: "; read -r
 clear
@@ -29,6 +29,6 @@ clear
 echo ""
 echo -e "\033[1;31m \033[1;33mCOMANDO: \033[1;32muany\033[0m"
 echo ""
-echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m CYBERSSH\033[0m"
+echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m @cybercoari\033[0m"
 cat /dev/null > ~/.bash_history && history -c
 exit;

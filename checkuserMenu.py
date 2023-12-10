@@ -144,7 +144,7 @@ if __name__ == "__main__":
 
         elif option == "4":
             os.system('clear')
-            print(f"Olá, esse é um multi-checkuser criado por @Cybessh")
+            print(f"Olá, esse é um multi-checkuser criado por @@cybercoari")
             print(f"Com esse checkuser venho trazendo a possibilidade de usar em diversos apps")
             print(f"Apps como: ")
             print(f" - DtunnelMod")
