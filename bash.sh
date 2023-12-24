@@ -8,7 +8,7 @@ roxo="\e[38;2;128;0;128m"
 reset="\e[0m"
 
 echo -e "${amarelo}|================================================|${reset}"
-echo -e "${amarelo}|${reset}        ${roxo}Seja bem-vindo ao cybercoari${reset}        ${amarelo}|${reset}"
+echo -e "${amarelo}|${reset}        ${roxo}Seja bem-vindo ao Cyberssh${reset}        ${amarelo}|${reset}"
 echo -e "${amarelo}|================================================|${reset}"
 echo -e "${amarelo}|${reset}${roxo}Aplicativos Suportados:${reset}                         ${amarelo}|${reset}"
 echo -e "${amarelo}|================================================|${reset}"

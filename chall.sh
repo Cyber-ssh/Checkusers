@@ -1,5 +1,5 @@
 #!/bin/bash
-[[ $(awk -F" " '{print $2}' /etc/licencec/telegram) == "@cybercoari" ]] && {
+[[ $(awk -F" " '{print $2}' /etc/licencec/telegram) == "@Cyberssh23" ]] && {
 IP=$(wget -qO- ipv4.icanhazip.com)
 verif_ptrs() {
 porta=$1

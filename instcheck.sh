@@ -46,8 +46,7 @@ echo "America/Sao_Paulo" > /etc/timezone
 ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime > /dev/null 2>&1
 dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1
 clear
-echo -e "\E[44;1;37m CHECKUSER PARA CONECTA4G.      \E[0m"
-echo -e "\E[44;1;37m      GLTUNNEL, DTUNNEL, ANYMOD.      \E[0m"
+echo -e "\E[44;1;37m CHECKUSER PARA CONECTA4G, GLTUNNEL, DTUNNEL, ANYMOD.      \E[0m"
 echo -e "\E[44;1;37mVERSÃO 2.0             By @cybercoari\E[0m"
 echo ""
 echo -e "      \033[1;33m • \033[1;32mINICIANDO INSTALAÇÃO\033[1;33m • \033[0m"

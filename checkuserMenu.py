@@ -136,6 +136,10 @@ if __name__ == "__main__":
                 print(f" AnyVpnMod - http://{ip}:{porta}/anymod ")
                 print(f" Conecta4g - http://{ip}:{porta}/checkUser ")
                 print("")
+                
+                print(f" {cor_amarela} Para usar com o security.)
+                print(f" {cor_amarela} Kink Conecta4g - abaixo: {cor_reset} ")                
+                print(f" {cor_amarela} Kink Conecta4g - http://{ip}:{porta}/checkUser ")
 
             else:
                 print("\nInicie o serviço primeiro\n")
