@@ -29,7 +29,7 @@ if [ "$escolha" -eq 1 ]; then
     sudo apt update && sudo apt upgrade && sudo apt install python3 python3-pip && pip install sqlite3 hypercorn colorlog fastapi pydantic
     echo "installed" > CheckUserInfo.txt
 
-    git clone https://github.com/Cyber-ssh/CheckUser.git
+    git clone https://github.com/Cyber-ssh/CheckUsers.git
     echo 'alias CheckUser="nohup python3 /root/CheckUser/menu.py"' >> ~/.bashrc
 
     echo -e "${roxo}Para iniciar, acesse o menu digitando 'CheckUser' (sem aspas)."

@@ -8,7 +8,7 @@ reset="\e[0m"
 
 set -x
 apt update && apt upgrade -y && apt install python3 git -y
-git clone https://github.com/Cyber-ssh/CheckUser.git
+git clone https://github.com/Cyber-ssh/Checkusers.git
 chmod +x /root/CheckUser/checkuserMenu.sh
 ln -s /root/CheckUser/checkuserMenu.sh /usr/local/bin/CheckUser
 

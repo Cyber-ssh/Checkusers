@@ -4,5 +4,5 @@
 
 
 ```
- bash <(curl -sL https://raw.githubusercontent.com/Cyber-ssh/Checkuser/main/instcheck.sh) && chall
+ bash <(curl -sL https://raw.githubusercontent.com/Cyber-ssh/Checkusers/main/instcheck.sh) && chall
 ```
